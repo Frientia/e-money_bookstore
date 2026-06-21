@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "380811947800",
+    "project_id": "emoneybookstore",
+    "storage_bucket": "emoneybookstore.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380811947800:android:dfa9f90a99c542f953f86d",
+        "android_client_info": {
+          "package_name": "com.bookstore.emoney.id"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380811947800-647kuc73j7ct5os6i26cur5g0mud05ij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDNlUBZ1kj-rsGQU1tCyqwDp-G-Ko_DG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380811947800-647kuc73j7ct5os6i26cur5g0mud05ij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380811947800:android:eee75aeb0e263eb053f86d",
+        "android_client_info": {
+          "package_name": "com.frientia.bookstore_emoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380811947800-647kuc73j7ct5os6i26cur5g0mud05ij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDNlUBZ1kj-rsGQU1tCyqwDp-G-Ko_DG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380811947800-647kuc73j7ct5os6i26cur5g0mud05ij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
