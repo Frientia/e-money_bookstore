@@ -1,43 +1,43 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  // Primary Purple
-  static const Color primary = Color(0xFF7C3AED);
-  static const Color primaryLight = Color(0xFF9D60F8);
-  static const Color primaryDark = Color(0xFF5B21B6);
-  static const Color primarySurface = Color(0xFFEDE9FE);
-  static const Color primaryBorder = Color(0xFFDDD6FE);
+  // Primary — hijau sage
+  static const Color primary = Color(0xFF618764);       // sage medium
+  static const Color primaryLight = Color(0xFF9CB080);  // sage light
+  static const Color primaryDark = Color(0xFF2B5748);   // sage dark
+  static const Color primarySurface = Color(0xFFEDF3E8);
+  static const Color primaryBorder = Color(0xFFCCDAC4);
 
   // Semantic
-  static const Color green = Color(0xFF16A571);
-  static const Color greenSurface = Color(0xFFE8F8F2);
+  static const Color green = Color(0xFF618764);
+  static const Color greenSurface = Color(0xFFEDF3E8);
   static const Color amber = Color(0xFFD98512);
   static const Color amberSurface = Color(0xFFFDF3E3);
   static const Color red = Color(0xFFE5484D);
   static const Color redSurface = Color(0xFFFDECED);
-  static const Color violet = Color(0xFF7C3AED);
-  static const Color violetSurface = Color(0xFFEDE9FE);
+  static const Color violet = Color(0xFF7A5AF8);
+  static const Color violetSurface = Color(0xFFF0EEFF);
 
-  // Neutral
-  static const Color ink = Color(0xFF0E1726);
-  static const Color slate600 = Color(0xFF4B5E78);
-  static const Color slate500 = Color(0xFF6B7A90);
-  static const Color slate400 = Color(0xFF9DABBE);
-  static const Color slate300 = Color(0xFFCBD2DD);
-  static const Color line = Color(0xFFE8ECF2);
-  static const Color line2 = Color(0xFFF3F5F8);
-  static const Color bg = Color(0xFFFFFFFF);      // putih
+  // Neutral — berbasis #273338 (dark teal)
+  static const Color ink = Color(0xFF273338);
+  static const Color slate600 = Color(0xFF3D5055);
+  static const Color slate500 = Color(0xFF5E7075);
+  static const Color slate400 = Color(0xFF8EA4A8);
+  static const Color slate300 = Color(0xFFBDCDD0);
+  static const Color line = Color(0xFFE2EAEB);
+  static const Color line2 = Color(0xFFF0F4F4);
+  static const Color bg = Color(0xFFFFFFFF);
   static const Color white = Color(0xFFFFFFFF);
 
-  // Gradient Header Ungu
+  // Gradient header — sage dark ke sage medium
   static const LinearGradient headerGradient = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
     stops: [0.0, 0.55, 1.0],
-    colors: [primaryLight, primary, primaryDark],
+    colors: [primary, primaryDark, Color(0xFF1E3F34)],
   );
 
-  // Gradient Primer (untuk tombol, dll)
+  // Gradient primer (tombol, dll)
   static const LinearGradient primaryGradient = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
@@ -48,7 +48,7 @@ class AppColors {
   // Shadows
   static List<BoxShadow> shadowCard = [
     const BoxShadow(
-      color: Color(0x14000000),
+      color: Color(0x14273338),
       blurRadius: 24,
       spreadRadius: 0,
       offset: Offset(0, 4),
@@ -56,7 +56,7 @@ class AppColors {
   ];
   static List<BoxShadow> shadowSoft = [
     const BoxShadow(
-      color: Color(0x0A000000),
+      color: Color(0x0A273338),
       blurRadius: 12,
       spreadRadius: 0,
       offset: Offset(0, 2),
@@ -64,7 +64,7 @@ class AppColors {
   ];
   static List<BoxShadow> shadowPrimary = [
     const BoxShadow(
-      color: Color(0x527C3AED),   // ungu glow
+      color: Color(0x40618764),   // sage glow
       blurRadius: 22,
       spreadRadius: 0,
       offset: Offset(0, 10),
@@ -73,12 +73,13 @@ class AppColors {
 
   // Tone map untuk FeatureIcon
   static Map<String, List<Color>> tones = {
-    'violet': [primarySurface, primary],
-    'green': [greenSurface, green],
-    'amber': [amberSurface, amber],
-    'red': [redSurface, red],
-    'slate': [line2, slate600],
+    'green':  [greenSurface, primary],
+    'amber':  [amberSurface, amber],
+    'red':    [redSurface, red],
+    'violet': [violetSurface, violet],
+    'slate':  [line2, slate600],
+    'dark':   [Color(0xFFDDE6E7), primaryDark],
   };
 
-  static List<Color> tone(String name) => tones[name] ?? tones['violet']!;
+  static List<Color> tone(String name) => tones[name] ?? tones['green']!;
 }
