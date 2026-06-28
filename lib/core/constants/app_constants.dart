@@ -34,7 +34,7 @@ class AppConstants {
   static const String txnDeeplink = 'deeplink';
   static const String txnPulsa = 'pulsa';
   static const String txnReceived = 'received';
-
+  
   // OTP types (backend)
   static const String otpTypeFirebase = 'firebase';
   static const String otpTypeEmail = 'email';
