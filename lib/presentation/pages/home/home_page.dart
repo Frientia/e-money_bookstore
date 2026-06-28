@@ -303,7 +303,7 @@ class _HomePageState extends State<HomePage> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: const [
-                    Text('Poin Kampus',
+                    Text('Poin BookStore',
                         style: TextStyle(
                             fontFamily: 'PlusJakartaSans',
                             fontSize: 11.5,

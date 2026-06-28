@@ -68,7 +68,7 @@ class PromoPage extends StatelessWidget {
                         children: const [
                           AppBadge(label: 'SPESIAL MAHASISWA', tone: 'amber'),
                           SizedBox(height: 12),
-                          Text('Bayar kuliah,\ndapat cashback 💸',
+                          Text('Bayar Buku,\ndapat cashback 💸',
                               style: TextStyle(
                                 fontFamily: 'PlusJakartaSans',
                                 fontSize: 22,

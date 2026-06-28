@@ -13,9 +13,9 @@ class AppLogo extends StatelessWidget {
     const fontFamily = 'PlusJakartaSans';
 
     Widget icon = Image.asset(
-      'assets/images/logo-dompet.png',
-      width: size,
-      height: size,
+      'assets/images/dompet-icon.png',
+      width: size * 2,
+      height: size * 2,
       fit: BoxFit.contain,
     );
 
@@ -31,24 +31,13 @@ class AppLogo extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Dompet Kampus',
+              'Dompet BookStore',
               style: TextStyle(
                 fontFamily: fontFamily,
                 fontSize: size * 0.3,
                 fontWeight: FontWeight.w800,
                 color: light ? Colors.white : AppColors.ink,
                 letterSpacing: -0.3,
-                height: 1.05,
-              ),
-            ),
-            Text(
-              'GLOBAL',
-              style: TextStyle(
-                fontFamily: fontFamily,
-                fontSize: size * 0.205,
-                fontWeight: FontWeight.w700,
-                color: light ? Colors.white.withValues(alpha: 0.85) : AppColors.primary,
-                letterSpacing: 1.5,
                 height: 1.05,
               ),
             ),
