@@ -397,6 +397,36 @@ Pengguna menavigasi aplikasi dengan tab utama dan opsi cepat scan QR.
 - Otentikasi 2FA dengan TOTP dan notifikasi
 - Tutorial dan layanan aplikasi mobile modern
 
+---
+
+## Preview Tampilan Aplikasi
+
+### Autentikasi
+| Register | Login | Verifikasi Email |
+|:---:|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/6dda3c06-ea83-4104-a8ea-213f75aec058" width="220"/> | <img src="https://github.com/user-attachments/assets/9109941f-59df-424c-becf-828c7940c4ef" width="220"/> | <img src="https://github.com/user-attachments/assets/f8607c0e-ad77-4494-8978-d929ecf61623" width="220"/> |
+| Daftar akun baru | Masuk dengan email / Google | Konfirmasi email |
+
+### Keamanan Akun
+| Amankan Akun | About |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/6fb21093-611d-4aa8-ac06-d20bb795cfb9" width="220"/> | <img src="https://github.com/user-attachments/assets/363b2066-f012-4214-b8f6-91a9506739d5" width="220"/> |
+| Setup 2FA | Info & versi aplikasi |
+
+### Dashboard & Fitur Utama
+| Beranda | Promo | Riwayat |
+|:---:|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/200ef9eb-1bd8-420d-ad41-183297f85b04" width="220"/> | <img src="https://github.com/user-attachments/assets/54518e57-2ac0-4284-8f9a-244e93064244" width="220"/> | <img src="https://github.com/user-attachments/assets/66e34256-7e0f-4b78-9022-4cee4e9e402b" width="220"/> |
+| Dashboard utama | Daftar promo aktif | Riwayat transaksi |
+
+### Transaksi
+| Isi Saldo | Transfer | Berhasil |
+|:---:|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/381867cb-916b-44c8-ac96-60d1717cf134" width="220"/> | <img src="https://github.com/user-attachments/assets/33a37b31-dbe9-4b3a-8add-3e529ad4cb87" width="220"/> | <img src="https://github.com/user-attachments/assets/26084473-5348-43ee-a2cb-6cafaaf59955" width="220"/> |
+| Top up saldo | Kirim ke pengguna lain | Konfirmasi sukses |
+
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
