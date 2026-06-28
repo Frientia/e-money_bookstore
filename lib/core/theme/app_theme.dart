@@ -17,20 +17,20 @@ class AppTheme {
         background: AppColors.bg,
         error: AppColors.red,
       ),
-      scaffoldBackgroundColor: AppColors.bg,
+      scaffoldBackgroundColor: AppColors.white,
       appBarTheme: const AppBarTheme(
-        backgroundColor: Colors.white,
+        backgroundColor: AppColors.primary,
         elevation: 0,
         systemOverlayStyle: SystemUiOverlayStyle(
           statusBarColor: Colors.transparent,
-          statusBarIconBrightness: Brightness.dark,
+          statusBarIconBrightness: Brightness.light,
         ),
-        iconTheme: IconThemeData(color: AppColors.ink),
+        iconTheme: IconThemeData(color: Colors.white),
         titleTextStyle: TextStyle(
           fontFamily: fontFamily,
           fontSize: 17,
           fontWeight: FontWeight.w700,
-          color: AppColors.ink,
+          color: Colors.white,
         ),
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
