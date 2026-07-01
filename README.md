@@ -21,7 +21,7 @@ https://global.ac.id/
 
 Lihat video demo aplikasi untuk melihat semua fitur dalam aksi!
 
-**[Watch Full Demo on YouTube]()**
+**[Watch Full Demo on YouTube](https://youtu.be/3T_PeOEtE7w)**
 
 Alternative link: **[Google Drive Demo]()**
 
