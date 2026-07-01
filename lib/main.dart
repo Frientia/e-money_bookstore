@@ -32,11 +32,11 @@ void main() async {
   _deeplinkService = DeeplinkService(AppRouter.router);
   await _deeplinkService.init();
 
-  runApp(const bookpayApp());
+  runApp(const BookPayApp());
 }
 
-class bookpayApp extends StatelessWidget {
-  const bookpayApp({super.key});
+class BookPayApp extends StatelessWidget {
+  const BookPayApp({super.key});
 
   @override
   Widget build(BuildContext context) {
